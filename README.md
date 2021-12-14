@@ -1,15 +1,15 @@
-# Transpileur C (Regression)
+# C Transpiler (Regression)
 
-auteur: Quentin Le Helloco
+author: Quentin Le Helloco
 
-## Utilisation
+## Usage
 > python3 create_model.py
 
-Pour creer les deux models utilises.
+Create both models for later usage.
 
 > python3 transpile_regression.py
 
-Permet de choisir "logistic" ou "linear". Le process va ensuite creer puis compiler un .c avec des features predefiniees et renvoyer l'output du .c puis celui du python (groundtruth). Les deux devraient etre similaires.
+Let you choose between "logistic" or "linear" model. The process will then create and compilate a c file with predefined features and print the output prediction of both the c file and python original model. They should be the same.
 
 ## Requirement
 Scikit-learn
